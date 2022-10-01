@@ -1,4 +1,10 @@
 from turtle import *
+from keyboard import *
+
+Joueur1=input("Pseudo du joueur 1: ")
+Joueur2=input("Pseudo du joueur 2: ")
+
+
 speed(5)
 pu()
 goto(0,0)
@@ -21,3 +27,4 @@ goto(66,-33)
 pd()
 forward(99)
 
+input()
